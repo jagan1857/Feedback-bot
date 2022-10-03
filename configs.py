@@ -6,7 +6,7 @@ class Config(object):
 
     API_HASH = str(os.environ.get("API_HASH", "f28fbd1367ddda2e6f863c3129323743"))
 
-    BOT_TOKEN = str(os.environ.get("BOT_TOKEN", ""))
+    BOT_TOKEN = str(os.environ.get("BOT_TOKEN", "5672508866:AAFPM9AfazI58I8loqdQ9fOu4SPtc6DXGXk"))
     
     OWNER_ID = int(os.environ.get("OWNER_ID", 1459910748))
 
